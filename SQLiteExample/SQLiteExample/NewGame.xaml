@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteExample.NewGame" BackgroundColor="#F0F8FF">
+    <ScrollView>
+        <StackLayout Padding="10" Spacing="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+        <StackLayout BackgroundColor="#228B22" Padding="0,20,0,0" HorizontalOptions="FillAndExpand" Spacing="10">
+            <Label x:Name="userLevel" Text="Level 1" HorizontalOptions="Center" FontSize="25" FontFamily="Arial"/>
+            <Label x:Name="userCoins" Text="In case you need help:" HorizontalOptions="Center" FontSize="20" FontFamily="Arial"/>
+            <Button x:Name="buttonClues" Text="Clues" HorizontalOptions="Center" BorderColor="Black" BorderRadius="3" Clicked="buttonCluesClicked"/>
+            <Button x:Name="buttonGallery" Text="Gallery" HorizontalOptions="Center" BorderColor="Black" BorderRadius="3" Clicked="buttonGalleryClicked"/>
+        </StackLayout>
+       
+                <Label Text="Clubs the player played for:" HorizontalOptions="Center" FontSize="20" FontFamily="Arial"/>
+                <Label x:Name="playerClubs" Text=" " HorizontalOptions="Center" FontSize="20" FontFamily="Arial" HeightRequest="150"/>
+                <Label x:Name="guess" Text=" " HorizontalOptions="Center" FontSize="20" FontFamily="Arial"/>
+                <Entry x:Name="userInput" Placeholder="Name of the player" FontSize="20" FontFamily="Arial"/>
+      
+        <Button x:Name="buttonSend" VerticalOptions="Center" HorizontalOptions="Center" Text="Send" BorderColor="Black" BorderRadius="3" Clicked="ButtonClicked" FontSize="20" />
+        <Image x:Name="playerPicture" VerticalOptions="Center" HorizontalOptions="Center" Source="" WidthRequest="250" HeightRequest="250"/>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

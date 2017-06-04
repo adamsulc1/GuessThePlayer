@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteExample.Clues"
+             Title="Clues" BackgroundColor="#F0F8FF">
+  <ScrollView>
+        <StackLayout Padding="10" Spacing="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  >
+            <StackLayout BackgroundColor="#228B22" Padding="0,50,0,0" HorizontalOptions="FillAndExpand" Spacing="20">
+                <Label x:Name="cluesLabel" Text="Clues" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
+            </StackLayout>
+          <AbsoluteLayout>
+            <Label x:Name="labelStatus" Text="Reveal if player is retired for 10 coins" FontSize="15" AbsoluteLayout.LayoutBounds="350,50"/>
+            <Button x:Name="playerStatus" Text="Reveal Status" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Clicked="buttonStatusClicked" AbsoluteLayout.LayoutBounds="650,50" BorderColor="Black" BorderRadius="3"/>
+            <Label x:Name="labelPosition" Text="Reveal players position for 10 coins" FontSize="15" AbsoluteLayout.LayoutBounds="350,100"/>
+            <Button x:Name="playerPosition" Text="Reveal Position" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Clicked="buttonPositionClicked" AbsoluteLayout.LayoutBounds="650,100" BorderColor="Black" BorderRadius="3"/>
+            <Label x:Name="labelNationality" Text="Reveal players nationality for 15 coins" FontSize="15" AbsoluteLayout.LayoutBounds="350,150"/>
+            <Button x:Name="playerNationality" Text="Reveal Nationality" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Clicked="buttonNationalityClicked" AbsoluteLayout.LayoutBounds="650,150" BorderColor="Black" BorderRadius="3"/>
+            <Label x:Name="labelPicture" Text="Reveal players picture for 20 coins" Font="15" AbsoluteLayout.LayoutBounds="350,200"/>
+            <Button x:Name="playerPicture" Text="Reveal Picture" FontSize="15" HorizontalOptions="Center" VerticalOptions="Center" Clicked="buttonPictureClicked" AbsoluteLayout.LayoutBounds="650,200" BorderColor="Black" BorderRadius="3"/>
+          </AbsoluteLayout>
+          
+            <Label x:Name="userCoins" Text="" FontSize="15" HorizontalOptions="Center" />
+            <Label x:Name="userLevel" Text="" FontSize="15" HorizontalOptions="Center" />
+            <Label x:Name="echo" Text="" FontSize="20" FontFamily="Arial" HorizontalOptions="Center"/>
+            <Image x:Name="echoPicture" VerticalOptions="Center" HorizontalOptions="Center" Source="" WidthRequest="250" HeightRequest="250"/>
+            
+        </StackLayout>
+        
+    </ScrollView>
+</ContentPage>

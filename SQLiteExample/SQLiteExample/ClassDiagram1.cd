@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SQLiteExample.Uzivatel">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAACQAAAAAAAgABAAAACAAAAAA=</HashCode>
+      <FileName>User.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Hádá_Vysledek" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SQLiteExample.Hrac">
+    <Position X="10" Y="1" Width="1.5" />
+    <AssociationLine Name="Spravne_jmeno" Type="SQLiteExample.Vysledek">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-0.89" Y="0.185" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>ACAAIAAACAAQABAAAAAABQQAAAAAAAAhAAAAAAAACAA=</HashCode>
+      <FileName>Player.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Spravne_jmeno" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SQLiteExample.players">
+    <Position X="13.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Players.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Informace_pro_hrace" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="SQLiteExample.Vysledek">
+    <Position X="7.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Vysledek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,2 @@
+android.app.Application
+guess_the_player.guess_the_player

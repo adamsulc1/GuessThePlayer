@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SQLiteExample.Gallery"
+             Title="Gallery" BackgroundColor="#F0F8FF">
+  <ScrollView>
+    <StackLayout Padding="10" Spacing="30" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"  >
+      <StackLayout BackgroundColor="#228B22" Padding="0,50,0,0" HorizontalOptions="FillAndExpand" Spacing="20">
+        <Label x:Name="galleryLabel" Text="Gallery" FontSize="25" VerticalOptions="Center" HorizontalOptions="Center"/>
+      </StackLayout>
+      <Label x:Name="playerName" Text=" " HorizontalOptions="Center" FontSize="20" FontFamily="Arial"/>
+        <Image x:Name="playerPicture" VerticalOptions="Center" HorizontalOptions="Center" Source="" WidthRequest="250" HeightRequest="250"/>
+        </StackLayout>
+  </ScrollView>
+</ContentPage>

@@ -1,0 +1,2 @@
+C:\Users\Admin\Desktop\adam\gg\SQLiteExample-new\SQLiteExample-new\SQLiteExample\SQLiteExample\SQLiteExample\SQLiteExample.UWP\SQLiteExample.UWP.csproj;x86
+C:\Users\Admin\Desktop\adam\gg\SQLiteExample-new\SQLiteExample-new\SQLiteExample\SQLiteExample\SQLiteExample\SQLiteExample\SQLiteExample.csproj;neutral
